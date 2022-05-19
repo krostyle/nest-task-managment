@@ -13,6 +13,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       database: 'task-managment',
       autoLoadEntities: true,
       synchronize: true,
+      entities: [__dirname + '/**/*.entity{.ts,.js}'],
     }),
   ],
   controllers: [],
