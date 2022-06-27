@@ -2,7 +2,7 @@ import {
   ConflictException,
   InternalServerErrorException,
 } from '@nestjs/common';
-import { CustomRepository } from 'src/database/typeorm-ex.decorator';
+import { CustomRepository } from '../database/typeorm-ex.decorator';
 import { Repository } from 'typeorm';
 import { AuthCredentialsDto } from './dto/auth-credentials.dto';
 import { User } from './user.entity';

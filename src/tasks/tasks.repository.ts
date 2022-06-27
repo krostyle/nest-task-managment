@@ -1,4 +1,4 @@
-import { CustomRepository } from 'src/database/typeorm-ex.decorator';
+import { CustomRepository } from '../database/typeorm-ex.decorator';
 import { Repository } from 'typeorm';
 import { CreateTaskDto } from './dto/create-task.dto';
 import { GetTasksFilterDto } from './dto/get-tasks-filter.dto';
